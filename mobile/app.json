@@ -24,11 +24,12 @@
       "permissions": [
         "CAMERA",
         "READ_EXTERNAL_STORAGE",
-        "WRITE_EXTERNAL_STORAGE"
+        "WRITE_EXTERNAL_STORAGE",
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
       ]
     },
-    "web": {
-    },
+    "web": {},
     "plugins": [
       [
         "expo-camera",
@@ -36,6 +37,11 @@
           "cameraPermission": "Allow $(PRODUCT_NAME) to access your camera to scan QR codes."
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "431d37fd-35a0-41fa-824b-9f0cc7cf75a3"
+      }
+    }
   }
 }
