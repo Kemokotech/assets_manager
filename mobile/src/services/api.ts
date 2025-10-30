@@ -1,8 +1,8 @@
 import axios from 'axios';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-const API_URL = 'http://192.168.100.84:5000/api'; // Your computer's IP address
-const BASE_URL = 'http://192.168.100.84:5000'; // Base URL for images
+const API_URL = 'https://assetsmanager-production.up.railway.app/api'; // Production API
+const BASE_URL = 'https://assetsmanager-production.up.railway.app'; // Production Base URL
 
 // Helper to convert relative URLs to full URLs
 export const getFullImageUrl = (url: string | null | undefined) => {
