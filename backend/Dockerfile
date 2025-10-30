@@ -12,4 +12,4 @@ RUN mkdir -p uploads/images uploads/qrcodes
 
 EXPOSE 5000
 
-CMD ["sh", "-c", "npm run setup && npm start"]
+CMD ["npm", "start"]
